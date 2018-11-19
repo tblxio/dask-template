@@ -10,3 +10,7 @@ Install [python](https://www.python.org/downloads/) and [virtualenv](https://vir
 * Setup and test: ```make all```
 * Setup: ```make setup```
 * Test: ```make test```
+  * Using [pytest](https://pypi.org/project/pytest/)
+* Clean: ```make clean```
+* Format: ```make format```
+  * Using [pylama](https://pypi.org/project/pylama/)

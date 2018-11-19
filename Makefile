@@ -14,8 +14,8 @@ setup:
 
 test:
 	. .pyenv/bin/activate; \
-	pytest -s -vv; \
+	pytest -s -vv;
 
 format:
 	. .pyenv/bin/activate; \
-	pylama *.py; \
+	pylama *.py;
