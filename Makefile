@@ -1,7 +1,7 @@
 
 .PHONY: clean setup test checkFormat
 
-all: setup test
+all: setup checkFormat test package
 
 clean:
 	rm -rf .pyenv/
@@ -21,3 +21,7 @@ test:
 checkFormat:
 	. .pyenv/bin/activate; \
 	pylama -l "pycodestyle,mccabe" -f pylint daskfunc;
+
+package:
+	. .pyenv/bin/activate; \
+	python setup.py sdist --formats=gztar;

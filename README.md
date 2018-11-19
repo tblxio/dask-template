@@ -7,8 +7,8 @@ This project aims to be a starting point for [Dask](https://dask.org/) related d
 Install [python](https://www.python.org/downloads/) and [virtualenv](https://virtualenv.pypa.io/en/latest/installation/)
 
 ### How-to
-* Setup and test: ```make all```
-  * All-in-one
+* All-in-one: ```make all```
+  * Setup, format, test and package
 * Setup: ```make setup```
   * Installs all dependencies
 * Test: ```make test```
@@ -17,7 +17,9 @@ Install [python](https://www.python.org/downloads/) and [virtualenv](https://vir
 * Clean: ```make clean```
   * Removes all cached files
 * Format: ```make checkFormat```
-  * Ensures standard style/format
+  * Checks standard style is applied
   * Using [pylama](https://pypi.org/project/pylama/)
+* Package: ```make package```
+  * Creates a bundle of software to be installed
 
 **Note:** Run `Setup` as your init command (or after `Clean`)
