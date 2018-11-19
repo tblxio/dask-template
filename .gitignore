@@ -2,6 +2,7 @@
 
 # Byte-compiled / optimized
 .pyenv/
+*.pyc
 
 # Distribution / packaging
 build/

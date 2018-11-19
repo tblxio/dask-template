@@ -1,6 +1,10 @@
 
 all: setup test
 
+clean:
+	rm -rf .pyenv/
+	rm -rf .pytest_cache/
+
 setup:
 	virtualenv .pyenv
 	( \
@@ -11,3 +15,7 @@ setup:
 test:
 	. .pyenv/bin/activate; \
 	pytest -s -vv; \
+
+format:
+	. .pyenv/bin/activate; \
+	pylama *.py; \
