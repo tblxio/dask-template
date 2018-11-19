@@ -1,4 +1,6 @@
 
+.PHONY: clean setup test checkFormat
+
 all: setup test
 
 clean:
@@ -16,6 +18,6 @@ test:
 	. .pyenv/bin/activate; \
 	pytest -s -vv;
 
-format:
+checkFormat:
 	. .pyenv/bin/activate; \
-	pylama *.py;
+	pylama -l "pycodestyle,mccabe" -f pylint daskfunc;

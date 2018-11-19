@@ -8,9 +8,16 @@ Install [python](https://www.python.org/downloads/) and [virtualenv](https://vir
 
 ### How-to
 * Setup and test: ```make all```
+  * All-in-one
 * Setup: ```make setup```
+  * Installs all dependencies
 * Test: ```make test```
+  * Runs all tests
   * Using [pytest](https://pypi.org/project/pytest/)
 * Clean: ```make clean```
-* Format: ```make format```
+  * Removes all cached files
+* Format: ```make checkFormat```
+  * Ensures standard style/format
   * Using [pylama](https://pypi.org/project/pylama/)
+
+**Note:** Run `Setup` as your init command (or after `Clean`)
