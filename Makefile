@@ -25,3 +25,9 @@ checkFormat:
 package:
 	. .pyenv/bin/activate; \
 	python setup.py sdist --formats=gztar;
+
+docs:
+	mkdir -p public; \
+	. .pyenv/bin/activate; \
+	pydoc -w daskfunc/core.py; \
+	mv core.html public/index.html;

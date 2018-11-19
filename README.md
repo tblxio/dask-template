@@ -21,5 +21,8 @@ Install [python](https://www.python.org/downloads/) and [virtualenv](https://vir
   * Using [pylama](https://pypi.org/project/pylama/)
 * Package: ```make package```
   * Creates a bundle of software to be installed
+* Docs: ```make docs```
+  * Generates documentation from modules
+  * Using [pydoc](https://docs.python.org/2/library/pydoc.html)
 
 **Note:** Run `Setup` as your init command (or after `Clean`)
