@@ -1,5 +1,7 @@
 # dask-template
 
+[![CircleCI](https://circleci.com/gh/necosta/dask-template.svg?style=svg)](https://circleci.com/gh/necosta/dask-template)
+
 This project aims to be a starting point for [Dask](https://dask.org/) related data pipelines.
 
 Dask documentation: http://docs.dask.org/en/latest/
