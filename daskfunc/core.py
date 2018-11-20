@@ -28,3 +28,16 @@ def count(daskDf):
     return -- Number of rows
     """
     return daskDf.index.size.compute()
+
+
+def distinct_count(daskDf, columnName):
+    """Counts distint number of values in Dask dataframe
+
+    Keyword arguments:
+    daskDf -- Dask dataframe
+    columnName -- Column name
+
+    Return:
+    return -- Distinct number of values
+    """
+    return daskDf[columnName].drop_duplicates().size

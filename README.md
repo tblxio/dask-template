@@ -2,9 +2,15 @@
 
 This project aims to be a starting point for [Dask](https://dask.org/) related data pipelines.
 
+Dask documentation: http://docs.dask.org/en/latest/
+
 ### Prerequisites
 
 Install [python](https://www.python.org/downloads/) and [virtualenv](https://virtualenv.pypa.io/en/latest/installation/)
+
+### Continuous Integration
+
+Check CI status [here](https://circleci.com/gh/necosta/dask-template)
 
 ### How-to
 * All-in-one: ```make all```

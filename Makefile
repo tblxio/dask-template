@@ -6,6 +6,9 @@ all: setup checkFormat test package
 clean:
 	rm -rf .pyenv/
 	rm -rf .pytest_cache/
+	rm -rf dask_template.egg-info/
+	rm -rf dist/
+	rm -rf public/
 
 setup:
 	virtualenv .pyenv

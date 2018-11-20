@@ -16,3 +16,6 @@ public/
 # IDE
 *.iml
 .idea/
+
+# Kdiff
+*.orig
