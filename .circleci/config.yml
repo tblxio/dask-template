@@ -1,0 +1,30 @@
+version: 2
+jobs:
+  build:
+    docker:
+    - image: circleci/python:3.6.4
+
+    working_directory: ~/repo
+
+    steps:
+    - checkout
+
+    - run:
+        name: Installs all dependencies
+        command: make setup
+
+    - run:
+        name: Check code style
+        command: make checkFormat
+
+    - run:
+        name: Run tests
+        command: make test
+
+    - run:
+        name: Package library so it can be distributed
+        command: make package
+
+    - run:
+        name: Generate documentation
+        command: make docs
