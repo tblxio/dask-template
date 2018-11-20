@@ -12,3 +12,7 @@ public/
 
 # Unit-tests
 .pytest_cache/
+
+# IDE
+*.iml
+.idea/

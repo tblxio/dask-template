@@ -19,6 +19,7 @@ Install [python](https://www.python.org/downloads/) and [virtualenv](https://vir
 * Format: ```make checkFormat```
   * Checks standard style is applied
   * Using [pylama](https://pypi.org/project/pylama/)
+  * Configure settings on [pylama.ini](pylama.ini)
 * Package: ```make package```
   * Creates a bundle of software to be installed
 * Docs: ```make docs```
@@ -26,3 +27,8 @@ Install [python](https://www.python.org/downloads/) and [virtualenv](https://vir
   * Using [pydoc](https://docs.python.org/2/library/pydoc.html)
 
 **Note:** Run `Setup` as your init command (or after `Clean`)
+
+### To-Do
+* Add more Dask methods (+ tests)
+* Wrap package into Docker image
+* Support Jupyter notebook
