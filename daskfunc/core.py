@@ -27,4 +27,4 @@ def count(daskDf):
     Return:
     return -- Number of rows
     """
-    return daskDf.index.size
+    return daskDf.index.size.compute()
