@@ -1,7 +1,6 @@
 # dask-template
 
-[![CircleCI](https://circleci.com/gh/techhublisbon/dask-template.svg?style=svg)](https://circleci.com/gh/techhublisbon/dask-template)
-
+[![CircleCI](https://circleci.com/gh/TechhubLisbon/dask-template.svg?style=svg)](https://circleci.com/gh/TechhubLisbon/dask-template)
 This project aims to be a starting point for [Dask](https://dask.org/) related data pipelines.
 
 Dask documentation: http://docs.dask.org/en/latest/
