@@ -36,6 +36,15 @@ Check CI status [here](https://circleci.com/gh/techhublisbon/dask-template)
 **Note:** Run `Setup` as your init command (or after `Clean`)
 
 ### To-Do
+
 * Add more Dask methods (+ tests)
 * Wrap package into Docker image
 * Support Jupyter notebook
+
+### Contributing
+
+Review [the contributing guidelines](CONTRIBUTING.md) before you make your awesome contribution
+
+### License
+
+This project is licensed under the terms of the MIT license. See [LICENSE](LICENSE) 
